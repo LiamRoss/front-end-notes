@@ -32,15 +32,14 @@ class World extends Component {
   render() {
     return(
       <div className="World">
-        <div className="world-title-wrapper">
-          <div className="world-title">
-            Hello {this.props.world.name}
-          </div>
+        <div className="world-title">
+          Hello {this.props.world.name}
         </div>
-        <div className="world-field">
-          <input className="world-input" type="text" 
-          onChange={this.props.change}/>
-        </div>
+        <input 
+          className="world-input" 
+          type="text" 
+          onChange={this.props.change}
+        />
       </div>
     )
   }
@@ -83,18 +82,14 @@ class World extends Component<OwnProps & ConnectedState & ConnectedDispatch, Own
   render() {
     return(
       <div className="World">
-        <div className="world-title-wrapper">
-          <div className="world-title">
-            Hello {this.props.name}
-          </div>
+        <div className="world-title">
+          Hello {this.props.name}
         </div>
-        <div className="world-field">
-          <input 
-            className="world-input" 
-            type="text" 
-            onChange={this.props.change}
-          />
-        </div>
+        <input 
+          className="world-input" 
+          type="text" 
+          onChange={this.props.change}
+        />
       </div>
     );
   }
