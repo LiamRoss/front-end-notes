@@ -64,7 +64,6 @@ const todos = (state = [], action) => {
   }
 };
 ```
-<br>
 
 #### 2) Example using Reducer Composition (abstract away some of reducer functionality)
 
@@ -126,8 +125,6 @@ return {
 };
 ```
 
-<br> 
-
 #### 2) Change **List** element
 
 * Use slice to alter single item in a list
@@ -146,8 +143,6 @@ return [list]
 ];
 ```
 
-<br> 
-
 #### 3) Add element
 
 * Use concat instead of push to add an element into the state
@@ -159,8 +154,6 @@ return list.concat([0]);
 // ES6 (use this)
 return [...list, 0];
 ```
-
-<br> 
 
 #### 4) Remove element
 
