@@ -15,15 +15,13 @@ Yarn | npm
 `yarn remove --dev` | `npm uninstall --save-dev`
 
 ## Dependencies
-Purpose |	NPM Command | 	YARN Command | Description
---- | ------------- | --- | --
+Purpose |NPM Command | YARN Command | Description
+--- | --- | --- | ---
 Unique ID | `npm install uuid --save`  | `yarn add uuid` | builds unique ids for your elements
 
 
 
-## Dev Dependencies
-		
-		
-DEV DEPENDENCIES	
-Purpose |	NPM Command | 	YARN Command | Description
---- | ------------- | --- | --
+## Dev Dependencies	
+Purpose | NPM Command | YARN Command | Description
+--- | --- | --- | ---
+filler | filler | filler | filler
