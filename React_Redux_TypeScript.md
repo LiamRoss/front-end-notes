@@ -206,7 +206,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 
 import { reducers } from './reducers';
 
-// Export Store type.
+// Export Store namespace. This describes the entire state of the application.
 export namespace Store {
     export type World = {                // world element, contains name
       name: string
