@@ -20,8 +20,6 @@ describe('Reducer USER_EDIT', () => {		// optional context for all sub tests
 }
 ```
 
----
-
 ### Matchers
 
 ```javascript
@@ -36,6 +34,8 @@ expect(2 + 2).not.toBe(0)
 ```
 
 For more matchers, visit [Jest Matchers.](https://facebook.github.io/jest/docs/en/using-matchers.html)
+
+---
 
 ## Use with JUnit
 
