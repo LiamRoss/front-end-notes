@@ -72,7 +72,7 @@ export function* sagas() {
   yield all([
     fork(takeLatest, 'USERS_FETCH', fetch),
     // Add forks here for more saga files.
-		// ex. fork(takeLatest, 'USERS_DELETE', delete)
+    // ex. fork(takeLatest, 'USERS_DELETE', delete)
   ])
 }
 ```
