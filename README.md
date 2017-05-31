@@ -1,4 +1,4 @@
-# Frontend dev notebook
+# Front-end Development Notes
 
 A collection of notes on various frontend technologies and points of interest.
 
