@@ -65,6 +65,7 @@ const todos = (state = [], action) => {
 };
 ```
 <br>
+
 #### 2) Example using Reducer Composition (abstract away some of reducer functionality)
 
 ```javascript
