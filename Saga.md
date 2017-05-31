@@ -13,16 +13,16 @@ Notes on Saga middleware syntax and usage with redux.
 #### Notes
 
 1. Intercept actions
-	  * actions are given a type that is unique to the saga middleware files
-		* actions can be intercepted as takeEvery or takeLatest
-				* takeEvery: allows concurrent fetches
-				* takeLatest: no concurrent fetches, will cancel pending fetch if new one is dispatched
-		* see [Examples of Saga Files](#saga-files)
+    * actions are given a type that is unique to the saga middleware files
+        * actions can be intercepted as takeEvery or takeLatest
+            * takeEvery: allows concurrent fetches
+            * takeLatest: no concurrent fetches, will cancel pending fetch if new one is dispatched
+      * see [Examples of Saga Files](#saga-files)
 2. Do async action
-		* sagas use ES6 Generator functions to complete their async actions
-		* generators syntax is `export function* saga() {...}`
+    * sagas use ES6 Generator functions to complete their async actions
+    * generators syntax is `export function* saga() {...}`
 3. Send new action back to reducers with async payload
-		* syntax is `yield put({ type: 'ASYNC_SUCCEEDED', payload: "" })`
+    * syntax is `yield put({ type: 'ASYNC_SUCCEEDED', payload: "" })`
 
 ---
 
