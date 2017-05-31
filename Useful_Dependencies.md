@@ -21,10 +21,7 @@ Unique ID | `npm install uuid --save`  | `yarn add uuid` | builds unique ids for
 
 
 
-## Dev Dependencies
-		
-		
-DEV DEPENDENCIES	
+## Dev Dependencies	
 Purpose | NPM Command | YARN Command | Description
 --- | --- | --- | ---
 filler | filler | filler | filler
