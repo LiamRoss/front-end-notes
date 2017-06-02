@@ -4,3 +4,7 @@ Notes on react-router and react-router-redux, and the syntax for establishing ro
 
 ---
 
+- [x] create page
+- [ ] basics of routing
+- [ ] examples of folder structure
+- [ ] code splitting
