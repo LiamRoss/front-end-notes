@@ -23,6 +23,9 @@ Details on routing a Redux application, as well as information on partitioning a
 [Ducks Architecture](https://github.com/LiamRoss/front-end-notes/blob/master/Ducks.md#ducks-architecture)  
 An outline of my rendition of ducks saleable architecture for Redux, and some details on implementation with TypeScript.
 
+[Useful Resources](https://github.com/LiamRoss/front-end-notes/blob/master/Resources.md#useful-resources)  
+A list of valuable resources for reference later.
+
 #### Other:
 [Useful Dependencies](https://github.com/LiamRoss/front-end-notes/blob/master/Dependencies.md#useful-dependencies)  
 A collection of useful dependencies to remember.
