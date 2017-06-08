@@ -86,7 +86,7 @@ import { fetchFromAPI } from '../api/api';
 // Our worker Saga: will perform the async increment task.
 export function* fetchUsers() {
   try {
-    const users = yield call(fetchUsers);
+    const users = yield call(fetchFromAPI);
     yield put({ type: 'USERS_FETCH_SUCCEEDED', users })
   }
   catch(error) {
