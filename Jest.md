@@ -15,9 +15,9 @@ describe('Reducer USER_EDIT', () => {		// optional context for all sub tests
 
   it('should edit user', () => {		// the actual test, must contain an expect
   //  Contents of the test
-  }
+  })
 
-}
+})
 ```
 
 ### Matchers
