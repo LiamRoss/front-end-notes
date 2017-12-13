@@ -136,7 +136,7 @@ return {
   .concat(list.slice(index + 1));
 
 // ES6 (use this)
-return [list]
+return [
   ...list.slice(0, index),
   list[index] + 1,                            // incrementing this item
   ...list.slice(index + 1)
